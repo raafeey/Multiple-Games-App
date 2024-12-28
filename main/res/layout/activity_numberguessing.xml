@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF5722"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guess a number between 1 and 100."
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/inputGuess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your guess"
+        android:inputType="number"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/guessButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guess"
+        android:background="@color/black"
+        android:textColor="#FF5722"/>
+
+    <Button
+        android:id="@+id/playAgainButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Again"
+        android:layout_marginTop="16dp"
+        android:background="@color/black"
+        android:textColor="#FF5722"/>
+
+    <Button
+        android:id="@+id/backToHomeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Home"
+        android:layout_marginTop="400dp"
+        android:background="@color/black"
+        android:textColor="#FF5722"/>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">multigamesapp</string>
+    <string name="number_guessing_game_title">Number Guessing Game</string>
+    <string name="hangman">Hangman</string>
+</resources>

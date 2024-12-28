@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF5722">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#FF5722"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/welcome_banner" />
+
+        <Button
+            android:id="@+id/button_tic_tac_toe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tic Tac Toe"
+            android:layout_marginTop="40dp"
+            android:background="@color/black"
+            android:textColor="#FF5722"/>
+
+        <Button
+            android:id="@+id/button_rock_paper_scissors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rock Paper Scissors"
+            android:layout_marginTop="23dp"
+            android:background="@color/black"
+            android:textColor="#FF5722"/>
+
+        <Button
+            android:id="@+id/button_number_guessing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Number Guessing Game"
+            android:layout_marginTop="23dp"
+            android:background="@color/black"
+            android:textColor="#FF5722"/>
+
+        <Button
+            android:id="@+id/button_hangman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hangman"
+            android:layout_marginTop="23dp"
+            android:background="@color/black"
+            android:textColor="#FF5722"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:text="© Rafaelo Games 2024"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+</LinearLayout>

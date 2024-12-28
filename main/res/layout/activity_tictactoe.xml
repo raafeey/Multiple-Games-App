@@ -1,0 +1,54 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FF5722">
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player X's turn"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3">
+
+        <Button android:id="@+id/button00" style="@style/GridButton"/>
+        <Button android:id="@+id/button01" style="@style/GridButton"/>
+        <Button android:id="@+id/button02" style="@style/GridButton"/>
+        <Button android:id="@+id/button10" style="@style/GridButton"/>
+        <Button android:id="@+id/button11" style="@style/GridButton"/>
+        <Button android:id="@+id/button12" style="@style/GridButton"/>
+        <Button android:id="@+id/button20" style="@style/GridButton"/>
+        <Button android:id="@+id/button21" style="@style/GridButton"/>
+        <Button android:id="@+id/button22" style="@style/GridButton"/>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/play_again_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Again"
+        android:layout_marginTop="20dp"
+        android:textColor="#FF5722"
+        android:backgroundTint="@color/black"/>
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Main"
+        android:layout_marginTop="100dp"
+        android:textColor="#FF5722"
+        android:backgroundTint="@color/black"/>
+</LinearLayout>
